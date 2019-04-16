@@ -11,7 +11,7 @@ public interface BeneficiaryDao {
 
 	List<Beneficiary> findByCustomerId(int id);
 
-	void saveFund(long result, int id);
+	void saveFund(long result, int id);//Hello
 
 	//void deleteCustomer(CustomerRegistration customer);
 
